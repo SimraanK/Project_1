@@ -1,0 +1,515 @@
+/* ```````````````````````DEFAULT``````````````````````````` */
+
+nav,
+header,
+footer {
+    
+    display: block;
+
+}
+
+body {
+    
+    line-height: 1;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    
+    
+}
+
+
+
+
+
+
+.container {
+    
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    min-width: 100px;
+    
+}
+
+
+.row {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.row::after {
+
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;}
+.col-4 {width: 33%;} 
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width:100%;}
+
+h1.line1 {
+    
+    color: #000;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+   
+}
+
+h1.header-1 {
+
+    font-size: 65px;
+    text-align: center;
+}
+
+form h2 {
+
+    color: #fff ;
+}
+
+
+input[type="text"] {
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: transparent;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+
+}
+input[type="password"] {
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: transparent;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+
+}
+
+div.leftside-col {
+
+    margin-left: 10%;
+}
+
+
+/* div.rightside-col { */
+
+    
+    /* -webkit-filter: blur(100%);
+    filter:blur(100%);
+    transition: all;
+    transition-property: all; */
+    
+    /* transition-duration: 0.3s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 0s; */
+    /* -webkit-transition-property: all .3s ease-in-out; */
+/* } */
+
+
+/* `````````````````````NAVBAR`````````````````````````````````` */
+
+nav {
+    
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    
+    background: linear-gradient(to right, rgb(70, 69, 69), rgb(134, 134, 134));
+    /* background-color: rgb(85, 85, 85); */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.topnav li {
+    
+    list-style: none;
+    float: left;
+    
+    
+}
+
+ul.topnav li.navright {
+    
+    float: right;
+}
+
+ul.topnav li a {
+    
+    display: block;
+    text-decoration: none;
+    padding: 14px;
+    min-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0)
+}
+
+ul.topnav li a:hover {
+    
+    color: rgb(194, 194, 194);
+    /* background-color: rgba(128, 128, 128, 0.158);
+    border-radius: 7px; */
+
+}
+
+
+ul.topnav li.dropdownIcon {
+    
+    display: none;
+
+}
+
+
+#color-gradient-1 {
+
+    background: linear-gradient(rgb(120, 1, 175), rgb(150, 5, 101));
+    
+}
+
+#color-gradient-2 {
+
+    /* background-image: url(https://www.bitdegree.org/assets/homepage/discord-bg.png); */
+}
+
+
+div.box {
+
+    box-shadow: rgba(234, 1, 255, 80%) 0px 0px 2px;
+
+    
+    text-align: center;
+    margin: 20px 20px 20px 33px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+    
+}
+
+div.box:hover {
+
+    box-shadow: rgb(0 0 0 / 25%) 2px 4px 6px;
+}
+
+
+
+div.icon {
+
+    width: 100%;
+    
+}
+
+label {
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+p {
+
+    font-size: 20px;
+    line-height: 25px;
+}
+
+button {
+
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 35px;
+    display: block;
+    text-align: center;
+    
+    
+}
+
+button.LearnMore {
+
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+button:hover {
+
+    background-color: rgb(51, 110, 69);
+    color: #000;
+    
+}
+
+
+article p {
+
+    font-size: 30px;
+    padding: 10px;
+    line-height: 2.3rem;
+}
+
+
+.row-3 {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row-3::after {
+
+    display: table;
+    clear: both;
+    content: "";
+}
+
+div.iosimage img {
+
+    display: block;
+    margin: auto;
+    /* box-shadow: -2px -2px 20px 3px rgb(0, 0, 0, .15),
+    2px 2px 17px 2px rgb(0, 0, 1); */
+    border-radius: 10px;
+    
+}
+
+/* div.iosimage img:hover {
+
+    box-shadow: 0 1px 6px rgba(31,31,31,.12),0 1px 4px rgba(31,31,31,.12);
+} */
+
+
+.row-4 {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row-4::after {
+
+    display: table;
+    clear: both;
+    content: "";
+}
+
+footer {
+
+    /* background-color: #19202a; */
+    background-color: #262f3c;;
+    min-height: 13rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    padding-left: 110px;
+    /* background-image: url(https://www.bitdegree.org/assets/homepage/discord-bg.png); */
+   
+    
+   
+}
+
+footer hr {
+
+    margin: 0;
+    width: 90%;
+}
+
+
+footer h1 {
+
+    color: #a1a7b3;
+}
+
+
+
+
+
+footer div.foot ul{
+
+    list-style-type: none;
+    float: left;
+    padding-left: 15px;
+    padding-top: 0px;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    
+    
+}
+
+
+div.row-4 div.col-3 ul li a {
+
+    text-decoration: none;
+    font-size: larger;
+    color: #000;
+    
+}
+
+div.row-4 div.col-3 ul li a:hover {
+
+    /* color: rgb(194, 194, 194); */
+    color: #515867;
+    cursor: pointer;
+    
+}
+
+.branding {
+
+    padding: 20px 20px 20px 20px;
+    /* text-align: right; */
+    
+}
+
+
+
+
+
+
+
+/* `````````````````` MOBILE `````````````````````````````````````` */
+
+@media screen and (max-width: 680px) {
+
+    ul.topnav li:not(:nth-child(1)) {
+
+        display: none;
+        
+    }
+
+    ul.topnav li.dropdownIcon {
+
+        display: block;
+        float: left;
+    
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    ul.topnav.responsive {
+        
+        position: relative;
+        
+    }
+
+    ul.topnav.responsive li {
+        
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        
+        display: block;
+        text-align: left;
+    }
+
+    h1.header-1 {
+
+        font-size: 50px;
+    }
+
+
+    .col-7, 
+    .col-6,
+    .col-5, 
+    .col-4 {
+
+        width: 100%;
+        margin: 0;
+    }
+
+    div.box {
+
+        padding: 5px;
+        display: block;
+    }
+
+    div.leftside-col,
+    div.rightside-col {
+
+        margin: 15px;
+    }
+
+    div.video iframe {
+
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    } 
+
+    .container {
+
+       height: 53rem;
+    }
+    
+    article p {
+
+        font-size: 25px;
+    }
+
+
+    .col-3 {
+
+        width: 50%;
+        margin: 0;
+        
+        
+    }
+
+    div.iosimage {
+
+        padding-bottom: 30px;
+    }
+
+
+    footer {
+
+        display: block;
+        width: 50%;
+        /* padding: 0px 0px 20px 60px; */
+
+    }
+
+
+
+
+
+
+
+
+}
+
